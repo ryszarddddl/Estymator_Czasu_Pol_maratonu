@@ -33,7 +33,7 @@ if "last_trace_id" not in st.session_state:
 #@st.cache_data
 def handle_api_keys():
     # 1. Próba załadowania z .env
-    env_path = Path(".env")
+    env_path = PROJECT_ROOT / ".env" 
     load_dotenv(env_path)
     
     # Pobranie wartości z systemu/pliku .env
