@@ -30,34 +30,44 @@ Zaimplementuj aplikację szacującą czas ukończenia półmaratonu dla zadanych
   
 4. Instalacja i uruchomienie
 Aby zainstalować aplikację, uruchom konsolę (CMD w Windows, Terminal w Linux/macOS) i postępuj zgodnie z wybraną metodą:
+
 Krok 1: Pobranie projektu na dysk
+
 Wybierz jedną z opcji:
-
-    Git: git clone https://github.com/ryszarddddl/Estymator_Czasu_Pol_maratonu
-    Wget: wget https://github.com
-    Manualnie: Kliknij zielony przycisk "Code" na górze strony i wybierz "Download ZIP" lub "Open with GitHub Desktop".
-
+   ```bash
+   git clone https://github.com/ryszarddddl/Estymator_Czasu_Pol_maratonu
+   ```
+   ```
+   wget https://github.com
+   ```
+   ```
+   Kliknij zielony przycisk "Code" na górze strony i wybierz "Download ZIP" lub "Open with GitHub Desktop".
+   ```
 Krok 2: Instalacja i start
 Opcja A: Docker (Zalecane)
 
-    Zainstaluj Docker Desktop: https://docs.docker.com/desktop/
-    W konsoli przejdź do folderu projektu: cd Estymator_Czasu_Pol_maratonu
-    Zbuduj obraz: docker build -t estymator_maratonu .
-    Uruchomienie:
-        Otwórz Docker Desktop, wejdź w zakładkę Images i kliknij Run przy estymator_maratonu.
-        W ustawieniach (Optional settings) wpisz port (np. 8501).
-        Adres do aplikacji znajdziesz w zakładce Containers. W razie problemów zapytaj Gordona (AI wbudowane w Docker Desktop).
+Zainstaluj Docker Desktop: https://docs.docker.com/desktop/
+W konsoli przejdź do folderu projektu: cd Estymator_Czasu_Pol_maratonu
+Zbuduj obraz: 
+```
+docker build -t estymator_maratonu .
+```
+Uruchomienie:
+   Otwórz Docker Desktop, wejdź w zakładkę Images i kliknij Run przy estymator_maratonu.
+   W ustawieniach (Optional settings) wpisz port (np. 8501).
+   Adres do aplikacji znajdziesz w zakładce Containers. W razie problemów zapytaj Gordona (AI wbudowane w Docker Desktop).
 
 Opcja B: Instalacja manualna
 
-    Pobierz Pythona (zalecana wersja 3.11): https://www.python.org/downloads/
-    W konsoli zainstaluj wymagane biblioteki:
- 
-    pip install --upgrade pip
-    pip install -r requirements.txt
-
-    Używaj kodu z rozwagą.
-    Uruchomienie: Wpisz w konsoli:
-   
-    streamlit run src/apka_streamlit.py
+Pobierz Pythona (zalecana wersja 3.11): https://www.python.org/downloads/
+W konsoli zainstaluj wymagane biblioteki:
+   ```
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
       
+Używaj kodu z rozwagą.
+Uruchomienie: Wpisz w konsoli: 
+   ```
+   streamlit run src/apka_streamlit.py
+   ```  
