@@ -39,7 +39,7 @@ Wybierz jedną z opcji:
    git clone https://github.com/ryszarddddl/Estymator_Czasu_Pol_maratonu
    ```
    ```
-   wget https://github.com
+   wget https://github.com/ryszarddddl/Estymator_Czasu_Pol_maratonu
    ```
    
    Kliknij zielony przycisk "Code" na górze strony i wybierz "Download ZIP" lub "Open with GitHub Desktop".
