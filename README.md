@@ -29,6 +29,7 @@ Zaimplementuj aplikację szacującą czas ukończenia półmaratonu dla zadanych
     * tę część podepnij do Langfuse, aby zbierać metryki o skuteczności działania LLM'a
   
 4. Instalacja i uruchomienie
+
 Aby zainstalować aplikację, uruchom konsolę (CMD w Windows, Terminal w Linux/macOS) i postępuj zgodnie z wybraną metodą:
 
 Krok 1: Pobranie projektu na dysk
@@ -40,9 +41,9 @@ Wybierz jedną z opcji:
    ```
    wget https://github.com
    ```
-   ```
+   
    Kliknij zielony przycisk "Code" na górze strony i wybierz "Download ZIP" lub "Open with GitHub Desktop".
-   ```
+   
 Krok 2: Instalacja i start
 Opcja A: Docker (Zalecane)
 
