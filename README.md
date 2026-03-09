@@ -71,4 +71,18 @@ Używaj kodu z rozwagą.
 Uruchomienie: Wpisz w konsoli: 
    ```
    streamlit run src/apka_streamlit.py
-   ```  
+   ```
+
+## Klucze API do zewnętrznych serwisów:
+* Aplikacja wykorzystuje model językowy do generowania opisów planów treningowych. Aby funkcja działała, musisz posiadać własny klucz API, który wygenerujesz tutaj: https://platform.openai.com/api-keys.
+* DigitalOcean Spaces: Znajdziesz w panelu [DO -> API -> Spaces Access Keys](https://cloud.digitalocean.com/spaces). Służą do hostowania plików csv i modelu treningowego.
+* Langfuse: Załóż darmowe konto na langfuse.com, aby śledzić logi i koszty zapytań AI.
+
+## Ważne informacje o API:
+
+* Koszty: Korzystanie z modelu wymaga posiadania środków (kredytów) na koncie OpenAI. Jeśli Twoje darmowe środki powitalne wygasły, musisz doładować konto kwotą min. 5$ w zakładce Billing.
+* Bezpieczeństwo: Klucz jest wprowadzany w polu typu password. Jest zapisywany w pliku env
+
+## Zrzut ekranu z aplikacji
+<img width="1415" height="976" alt="estymacja_maratonu" src="https://github.com/user-attachments/assets/c0c1f951-f479-4df5-8920-72e1aaa1865c" />
+
